@@ -14,9 +14,9 @@ public class Problem_2 {
     {
         Scanner src = new Scanner(System.in);
         System.out.print("Given the number of minutes: ");
-        int mins = src.nextInt();
-        int yrs = mins / (365*24*60);
-        int days = (mins % (365*24*60))/(24*60);
-        System.out.println(mins+ " minutes is approximately "+yrs+" years ans "+days+" days");
+        int mintues = src.nextInt();
+        int years = mintues / (365*24*60);
+        int days = (mintues % (365*24*60))/(24*60);
+        System.out.println(mintues + " minutes is approximately " + years + " years ans " + days + " days");
     }
 }
